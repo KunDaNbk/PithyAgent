@@ -1,0 +1,46 @@
+{
+  "name": "pithyagent",
+  "version": "0.3.0",
+  "description": "A minimalist, zero-magic Node.js framework for building LLM agents with tool calling, streaming, RAG, and local model support (LM Studio, Ollama).",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "llm",
+    "agent",
+    "nodejs",
+    "lightweight",
+    "tools",
+    "rag",
+    "streaming",
+    "lmstudio",
+    "ollama",
+    "openai"
+  ],
+  "author": "KunDaNbk <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KunDaNbk/PithyAgent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KunDaNbk/PithyAgent/issues"
+  },
+  "homepage": "https://github.com/KunDaNbk/PithyAgent#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "optionalDependencies": {
+    "sqlite3": "^5.1.7"
+  },
+  "files": [
+    "core/",
+    "providers/",
+    "tools/",
+    "plugins/",
+    "index.js",
+    "README.md"
+  ]
+}
